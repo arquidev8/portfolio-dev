@@ -35,13 +35,13 @@ function App() {
           <div>
             Copyright &copy; {new Date().getFullYear()}
             <br />
-            Shout out to{" "}
+            Designed by{" "}
             <a href="https://sketchfab.com/Brynnnnn" className="highlight">
-              Brynnnnn
+              Hector Hernandez
             </a>{" "}
-            for amazing 3D model.
+            
             <br />
-            icons by <a href="https://icons8.com/">Icons8</a>
+            {/* icons by <a href="https://icons8.com/">Icons8</a> */}
           </div>
         </footer>
       </div>

@@ -11,34 +11,20 @@ const Skills = () => {
     return b > 0.5 ? a * k : a * -1 * k;
   };
   const skills = [
-    "Python",
-    "JavaScript",
-    "Dart",
-    "Django",
-    "Flutter",
-    "React",
-    "Redux",
-    "Nodejs",
-    "Express",
+    "WebGl",
     "HTML",
-    "CSS",
-    "ThreeJs",
-    "Flask",
-    "GCP",
-    "AWS",
-    "Machine Learning",
-    "Data Science",
-    "npm",
-    "Git",
-    "Github",
-    "MySQL",
-    "Postgres",
-    "MongoDB",
+    "Css",
+    "Javascript",
+    "Vue",
+    "React",
+    "Angular",
+    "Boostrap",
+    "Tailwind"
   ];
   const g = useRef();
   useFrame(() => {
-    g.current.rotation.x += 0.004;
-    g.current.rotation.y += 0.004;
+    g.current.rotation.x += 0.005;
+    g.current.rotation.y += 0.009;
     // g.current.rotation.z += 0.001;
   });
   return (

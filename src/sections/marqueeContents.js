@@ -19,6 +19,7 @@ import react from "../assets/icons/react.gif";
 import three from "../assets/icons/Threejs-logo.svg";
 import xd from "../assets/icons/xd.gif";
 import SingleLogo from "../components/singleLogo";
+import Web from "../assets/icons/FavoritesSvg/WebGL.png"
 
 const marqueeContents = [
   postgres,
@@ -28,11 +29,6 @@ const marqueeContents = [
   three,
   html,
   css,
-  dj,
-  py,
-  flutter,
-  dart,
-  cpp,
   git,
   hub,
   redux,
@@ -41,7 +37,15 @@ const marqueeContents = [
   xd,
   Aws,
   gcp,
+  Web
 ];
+  // dj,
+  // py,
+  // flutter,
+  // dart,
+  // cpp,
+  
+
 
 const MarqueeContent = () => {
   return marqueeContents.map((item) => <SingleLogo key={item} logo={item} />);

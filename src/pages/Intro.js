@@ -12,30 +12,30 @@ const SkillPage = () => (
       <div className="cards">
         <ReactCardCarousel>
           <JobCard
-            position="Software Development Intern"
-            compName="Geniobits"
-            timestamp="Dec 2021-Mar 2022"
+            position="Web Interaction Lover"
+            compName="I Graduated HETIC"
+            timestamp="2016"
             description={[
-              "Designed Rest API using Django",
-              "Researched and implemented UI/UX in React",
-              "Integrated PayTM payment gateway for web applications",
+              "I'm currently working at the web agency",
+              "84.Paris",
+              "as an Interactive Developer",
             ]}
           />
           <JobCard
             style={{ width: "22rem", height: "18rem" }}
-            position="Full Stack Developer"
-            compName="D.Y. Patil Robotics and A.I. Club"
-            timestamp="Aug 2020-Feb 2022"
+            position="Creative Websites"
+            compName="Making this portfolio Three.js was Really enriching experience"
+            // timestamp="Aug 2020-Feb 2022"
             description={[
-              "Lead Team for various web/app projects",
-              "Organized HashCode 2021",
+              "Concept & 3D Have been made with my friend Robin Poitevin",
+              // "Organized HashCode 2021",
             ]}
           />
         </ReactCardCarousel>
       </div>
     </div>
     <div className="marquee-container">
-      <Marquee gradient={false} pauseOnHover={true}>
+      <Marquee gradient={false} pauseOnHover={true} >
         <MarqueeContent />
       </Marquee>
     </div>

@@ -57,6 +57,7 @@ export const Logo = () => {
                 </g>
             </g>
         </svg>
+       
     );
 };
 

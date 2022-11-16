@@ -1,10 +1,16 @@
 import { useState, useEffect } from "react";
-import techie from "../assets/images/Techie.png";
-import smartAttendance from "../assets/images/smartattendance.png";
-import stockprediction from "../assets/images/stonks.png";
-import fanmerch from "../assets/images/fanmerch.png";
+// import techie from "../assets/images/Techie.png";
+// import smartAttendance from "../assets/images/smartattendance.png";
+// import stockprediction from "../assets/images/stonks.png";
+// import fanmerch from "../assets/images/fanmerch.png";
 import portfolio from "../assets/images/port.JPG";
-import sort from "../assets/images/sort.JPG";
+// import sort from "../assets/images/sort.JPG";
+import Embiez from "../assets/images/LezEmbies.png"
+import crumbskees from "../assets/images/crumbskees.png"
+import jigsaw from "../assets/images/jigsaw.png"
+import santa from "../assets/images/santa.png"
+import affirm from "../assets/images/affirm.png"
+import bmw from "../assets/images/bmw.png"
 
 const useProjects = () => {
   const [projects, setProjects] = useState([]);
@@ -12,64 +18,65 @@ const useProjects = () => {
   useEffect(() => {
     let project = [
       {
-        title: "Fan Merch",
+        title: "Les Embiez",
         description: [
-          "A conceptual website for social media influencers to sell their merch.",
-          "Built with ReactJS, Django-Rest-Framework, MySQL and Razorpay.",
+          "A 3 days event connecting Pernod Ricard employees all over",
+          "the world and immerse them in a virtual island with multiple activities to do.",
         ],
-        image: fanmerch,
-        link: "https://fan-merch.vercel.app/",
-        github: "https://github.com/teshank2137/fanMerch",
+        image: Embiez,
+        link: "https://www.makemepulse.com/case-study/les-embiez-2021/",
+        // github: "https://github.com/teshank2137/fanMerch",
       },
       {
-        title: "Find Techie",
+        title: "The crumbskees",
         description: [
-          "A Twitter bot that scans Twitter for job/intern posting and retweets top tweets daily.",
-          "If the recruiter tags him in his/her tweet it retweets the tweet",
-          "Built with Python and Tweepy.",
+          "A Really Fun to Player game website",
+          "Made at Upperquad for the San Francisco Design Week",
+         
         ],
-        image: techie,
-        link: "https://twitter.com/FindTechie",
+        image: crumbskees,
+        link: "https://crumbskees.com/",
       },
       {
-        title: "Smart Attendance App",
+        title: "Jigsaw",
         description: [
-          "A mobile app in which the user can track and mark attendance using face verification.",
-          "Teacher can manage and store the attendance of the students.",
-          "Built with Flutter, Django-Rest-Framework and MySQL",
+          "An interactive website in collaboration with Google",
+          "presenting 3 issues on the web: Disinformation, Toxicity and",
+          "White Supremacy.",
         ],
-        image: smartAttendance,
-        github: "https://github.com/teshank2137/smartAtendence",
+        image: jigsaw,
+        link: "https://jigsaw.google.com/the-current/white-supremacy/",
       },
       {
-        title: "Stock Market Prediction API",
+        title: "Santa Tracker-Snowbox",
         description: [
-          "An API Which predicts the next day's closing price of a stock.",
-          "Using algorithmic trading and Machine Learning, it gives buy & sell flags.",
-          "Built with Python, Scikit-Learn, Flask",
+          "A 3D game made for Google for Christmas where you can",
+          "build structure using items like ice block, trees, snowman head..",
+          "with a 3D physics. You can then save your structure as a GIF showing the 3D scene in different angles.",
         ],
-        image: stockprediction,
-        github: "https://github.com/teshank2137/stockprediction",
+        image: santa,
+        link: "https://santatracker.google.com/snowbox.html",
       },
 
       {
-        title: "Algorithm Visualizer",
+        title: "Affirm",
         description: [
-          "Web App to visualize the searching and sorting algorithms",
-          "Built with Flutter",
+          "Web site made for Affirm, a pay-over-time solution that lets",
+          "shoppers say yes to more of the things they love",
         ],
-        image: sort,
-        link: "https://teshank2137.github.io/#/",
+        image: affirm,
+        link: "https://upperquad.com/work/affirm/",
       },
       {
-        title: "My Portfolio",
+        title: "BMW MotorShow",
         description: [
-          "An interactive 3D-portfolio showcasing my work and skills.",
-          "Built using ReactJS, ThreeJS, CSS3 and lots of ❤️ love.",
+          "360 WebGL immersive experience letting the user dive into.",
+          "the BMW booth at the Paris Motorshow. One of my first 3D",
+          "project made with the amazing 84.Paris team."
         ],
-        image: portfolio,
-        link: "https://www.teshank.dev/",
-        github: "https://github.com/teshank2137/portfolio",
+        image: bmw,
+        link: "https://www.awwwards.com/sites/bmw-paris-motorshow-2016",
+      
       },
     ];
     setProjects(project);

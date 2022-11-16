@@ -3,7 +3,8 @@ import { Text } from "@react-three/drei";
 import { OrbitControls } from "@react-three/drei";
 import "./styles/home.css";
 import useIsMobile from "../customHooks/useIsMobile";
-import SingleRoom from "../3d/SingleRoom";
+// import SingleRoom from "../3d/SingleRoom";
+import Teclado from "../3d/Teclado";
 import font from "../assets/fonts/Poppins-Bold.ttf";
 import ScrollIcon from "../components/ScrollIcon";
 
@@ -23,7 +24,8 @@ const Home = () => {
         ) : null}
         <pointLight position={[-4, 3, 3]} args={["#aaa", 0.3]} />
 
-        <SingleRoom />
+        <Teclado/>  
+        {/* <SingleRoom /> */}
         <group>
           <Text
             color={color}
@@ -50,7 +52,7 @@ const Home = () => {
             outlineBlur={textBlur}
             font={font}
           >
-            Teshank Raut
+            Robin Payot
           </Text>
           <Text
             color={color}
@@ -59,7 +61,7 @@ const Home = () => {
             outlineBlur={textBlur}
             font={font}
           >
-            Full Stack Developer
+            Creative Developer
           </Text>
         </group>
       </Canvas>
