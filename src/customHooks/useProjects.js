@@ -3,14 +3,21 @@ import { useState, useEffect } from "react";
 // import smartAttendance from "../assets/images/smartattendance.png";
 // import stockprediction from "../assets/images/stonks.png";
 // import fanmerch from "../assets/images/fanmerch.png";
-import portfolio from "../assets/images/port.JPG";
+// import portfolio from "../assets/images/port.JPG";
 // import sort from "../assets/images/sort.JPG";
-import Embiez from "../assets/images/LezEmbies.png"
-import crumbskees from "../assets/images/crumbskees.png"
-import jigsaw from "../assets/images/jigsaw.png"
-import santa from "../assets/images/santa.png"
-import affirm from "../assets/images/affirm.png"
+// import Embiez from "../assets/images/LezEmbies.png"
+// import crumbskees from "../assets/images/crumbskees.png"
+// import jigsaw from "../assets/images/jigsaw.png"
+// import santa from "../assets/images/santa.png"
+// import affirm from "../assets/images/affirm.png"
 import bmw from "../assets/images/bmw.png"
+import zapateria from "../assets/images/Zapateria.jpg"
+import ferreteria from "../assets/images/ferreteria.jpg"
+import libreria from "../assets/images/Productos-varios.jpg"
+import shoes from "../assets/images/shoes.png"
+import nft from "../assets/images/nft.png"
+import travel from "../assets/images/travel.png"
+
 
 const useProjects = () => {
   const [projects, setProjects] = useState([]);
@@ -18,64 +25,61 @@ const useProjects = () => {
   useEffect(() => {
     let project = [
       {
-        title: "Les Embiez",
+        title: "Zapateria las 3B",
         description: [
-          "A 3 days event connecting Pernod Ricard employees all over",
-          "the world and immerse them in a virtual island with multiple activities to do.",
+          "Development of an online shoe store",
+        
         ],
-        image: Embiez,
-        link: "https://www.makemepulse.com/case-study/les-embiez-2021/",
+        image: zapateria,
+        link: "https://zap3bbb.cl/",
         // github: "https://github.com/teshank2137/fanMerch",
       },
       {
-        title: "The crumbskees",
+        title: "Ferretaria Legacy",
         description: [
-          "A Really Fun to Player game website",
-          "Made at Upperquad for the San Francisco Design Week",
-         
+          "Development of an online hardware store",     
         ],
-        image: crumbskees,
-        link: "https://crumbskees.com/",
-      },
-      {
-        title: "Jigsaw",
-        description: [
-          "An interactive website in collaboration with Google",
-          "presenting 3 issues on the web: Disinformation, Toxicity and",
-          "White Supremacy.",
-        ],
-        image: jigsaw,
-        link: "https://jigsaw.google.com/the-current/white-supremacy/",
-      },
-      {
-        title: "Santa Tracker-Snowbox",
-        description: [
-          "A 3D game made for Google for Christmas where you can",
-          "build structure using items like ice block, trees, snowman head..",
-          "with a 3D physics. You can then save your structure as a GIF showing the 3D scene in different angles.",
-        ],
-        image: santa,
-        link: "https://santatracker.google.com/snowbox.html",
+        image: ferreteria,
+        link: "https://ferreterialegacy.cl/",
       },
 
       {
-        title: "Affirm",
+        title: "Libreria Rengo",
         description: [
-          "Web site made for Affirm, a pay-over-time solution that lets",
-          "shoppers say yes to more of the things they love",
+          "Development of an online book store",
+          
         ],
-        image: affirm,
-        link: "https://upperquad.com/work/affirm/",
+        image: libreria,
+        link: "https://www.libreriarengo.cl/",
+      },
+
+      {
+        title: "NFT Prototype",
+        description: [
+          "nft website ",
+         
+        ],
+        image: nft,
+        link: "https://www.figma.com/proto/Mys6qYbScCpre16g3cXMFf/NFT?page-id=0%3A1&node-id=12%3A106&viewport=352%2C267%2C0.13&scaling=min-zoom&starting-point-node-id=15%3A679",
+      },
+
+      {
+        title: "Shoes Store",
+        description: [
+          "The concept is to present a clean, interactive and quite intuitive e-Commerce website."
+        
+        ],
+        image: shoes,
+        link: "https://www.figma.com/proto/IZcUSEDkWov7Q2sGY59oDA/Snickers?page-id=0%3A1&node-id=7%3A118&viewport=334%2C403%2C0.18&scaling=contain&starting-point-node-id=7%3A118",
       },
       {
-        title: "BMW MotorShow",
+        title: "Travel Store",
         description: [
-          "360 WebGL immersive experience letting the user dive into.",
-          "the BMW booth at the Paris Motorshow. One of my first 3D",
-          "project made with the amazing 84.Paris team."
+          "The idea of this concept is to create a dynamic experience for the visitor, also to show potential tourist destinations.",
+          
         ],
-        image: bmw,
-        link: "https://www.awwwards.com/sites/bmw-paris-motorshow-2016",
+        image: travel,
+        link: "https://www.figma.com/proto/gGgKqqnex4lLt6s3VRLuCS/Traveler?node-id=1%3A3&starting-point-node-id=1%3A3",
       
       },
     ];

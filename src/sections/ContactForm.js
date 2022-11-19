@@ -17,14 +17,14 @@ const ContactForm = () => {
   return (
     <div className="contact-form">
       <form
-        action="https://formsubmit.io/send/8526af8c-75e9-44ac-b462-fc33ebd697fd"
+        action="https://formsubmit.co/ce070886c0f904faa2b9d64046cd2a21"
         method="POST"
       >
         <input
           name="_redirect"
           type="hidden"
           id="name"
-          value="https://teshankraut.vercel.app/"
+          value="https://twitter.com/?lang=es"
         />
         <div className="form-group">
           <input
@@ -65,12 +65,12 @@ const ContactForm = () => {
             type="submit"
             className="btn-submit"
             value="Submit"
-            disabled={isError}
+            // disabled={isError}
           />
         </div>
       </form>
 
-      <p className="note">PS: You can contact me for resume</p>
+      {/* <p className="note">PS: You can contact me for resume</p> */}
     </div>
   );
 };

@@ -52,7 +52,7 @@ const Home = () => {
             outlineBlur={textBlur}
             font={font}
           >
-            Robin Payot
+            Hector Hernandez
           </Text>
           <Text
             color={color}
@@ -61,7 +61,7 @@ const Home = () => {
             outlineBlur={textBlur}
             font={font}
           >
-            Creative Developer
+            Fullstack Developer
           </Text>
         </group>
       </Canvas>

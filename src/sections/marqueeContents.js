@@ -37,14 +37,13 @@ const marqueeContents = [
   xd,
   Aws,
   gcp,
-  Web
-];
-  // dj,
-  // py,
-  // flutter,
-  // dart,
-  // cpp,
-  
+  Web,
+  dj,
+  py,
+  flutter,
+  dart,
+  cpp,
+];  
 
 
 const MarqueeContent = () => {

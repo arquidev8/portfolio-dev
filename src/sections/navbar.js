@@ -8,8 +8,8 @@ import EmailIcon from "@mui/icons-material/Email";
 import CloseIcon from "@mui/icons-material/Close";
 import github from "../assets/icons/git.svg";
 import { NavButton } from "../components/nav-button";
-// import insta from "../assets/icons/insta.svg";
-// import ln from "../assets/icons/ln.svg";
+import insta from "../assets/icons/insta.svg";
+import ln from "../assets/icons/ln.svg";
 // import Logo from "../components/logo";
 // import foto from "../assets/images/fotoSvg.svg"
 
@@ -56,39 +56,39 @@ export const NavBar = () => {
         <li>
           <a
             target="_blank"
-            href="robpayot@gmail.com"
+            href="hectorcreatives08@gmail.com"
             rel="noreferrer"
           >
             <EmailIcon />
           </a>
         </li>
-        {/* <li>
+        <li>
           <a
             target="_blank"
-            href="https://www.instagram.com/teshank2137/"
+            href="https://www.instagram.com/arqhector08/"
             rel="noreferrer"
           >
             <img src={insta} alt="Instagram" />
           </a>
-        </li> */}
+        </li>
         <li>
           <a
             target="_blank"
-            href="https://github.com/Robpayot"
+            href="https://github.com/arquidev8"
             rel="noreferrer"
           >
             <img src={github} alt="github" />
           </a>
         </li>
-        {/* <li>
+        <li>
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/teshankraut/"
+            href="https://www.linkedin.com/in/hector-hernandez-bb950322a/"
             rel="noreferrer"
           >
             <img src={ln} alt="Linkedin" />
           </a>
-        </li> */}
+        </li>
       </div>
     </section>
   );

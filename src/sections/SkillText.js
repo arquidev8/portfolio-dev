@@ -17,11 +17,11 @@ const SkillText = () => {
         {getSpans("Experience").map((e) => e)}
       </h1>
       <div className="skill-contents">
-      I'm a passionate programmer, who is always looking for new challenges to improve myself,  
-      who is always ready to learn new things and help others.
+      I am a passionate programmer, who is always looking for new challenges to improve, 
+      I like to be constantly learning and collaborate as a team.
         <br />
-        <br />I love to work with JavaScript, React, Vue, Angular, Html and
-        Css. I also have experience with WebGl. many other.
+        <br />I love working with JavaScript, React, Vue, Html, Css, Laravel and Java,
+        I also have experience with WebGl among many others.
         
       </div>
     </section>

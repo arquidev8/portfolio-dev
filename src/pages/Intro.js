@@ -12,22 +12,21 @@ const SkillPage = () => (
       <div className="cards">
         <ReactCardCarousel>
           <JobCard
-            position="Web Interaction Lover"
-            compName="I Graduated HETIC"
-            timestamp="2016"
+            position="Fullstack Developer"
+            compName="Neuropublicidad"
+            timestamp="2019"
             description={[
-              "I'm currently working at the web agency",
-              "84.Paris",
-              "as an Interactive Developer",
+              "Work in this web agency",
+              "Javascript backend and frontend web development. React, node, laravel"
             ]}
           />
           <JobCard
             style={{ width: "22rem", height: "18rem" }}
-            position="Creative Websites"
-            compName="Making this portfolio Three.js was Really enriching experience"
+            position="Freelance"
+            compName="Fiverr"
             // timestamp="Aug 2020-Feb 2022"
             description={[
-              "Concept & 3D Have been made with my friend Robin Poitevin",
+              "Freelance development of websites, APIs and mobile applications. for different agencies",
               // "Organized HashCode 2021",
             ]}
           />
