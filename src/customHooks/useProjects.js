@@ -10,7 +10,7 @@ import { useState, useEffect } from "react";
 // import jigsaw from "../assets/images/jigsaw.png"
 // import santa from "../assets/images/santa.png"
 // import affirm from "../assets/images/affirm.png"
-import bmw from "../assets/images/bmw.png"
+// import bmw from "../assets/images/bmw.png"
 import zapateria from "../assets/images/Zapateria.jpg"
 import ferreteria from "../assets/images/ferreteria.jpg"
 import libreria from "../assets/images/Productos-varios.jpg"
